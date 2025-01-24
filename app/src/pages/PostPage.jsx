@@ -1,10 +1,10 @@
 import React from "react";
 
-import { Post } from "../components/Post";
-import { Index } from "../components/AddComment";
-import { CommentsBlock } from "../components/CommentsBlock";
+import { Post } from "../components";
+import { Index } from "../components";
+import { CommentsBlock } from "../components";
 
-export const FullPost = () => {
+export const PostPage = () => {
     return (
         <>
             <Post

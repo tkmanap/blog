@@ -5,56 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="db726b39-62fd-4dc3-801f-0bca75203e33" name="Changes" comment="1.2 Верстка, material ui, scss">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/public/noavatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/components/AddComment/AddComment.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/components/AddComment/AddComment.module.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/components/AddComment/AddComment.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/components/AddComment/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/components/CommentsBlock.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/components/Header/Header.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/components/Header/Header.module.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/components/Header/Header.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/components/Header/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/components/Post/Post.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/components/Post/Post.module.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/components/Post/Post.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/components/Post/Skeleton.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/components/Post/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/components/SideBlock/SideBlock.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/components/SideBlock/SideBlock.module.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/components/SideBlock/SideBlock.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/components/SideBlock/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/components/TagsBlock.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/components/UserProfile/UserProfile.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/components/UserProfile/UserProfile.module.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/components/UserProfile/UserProfile.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/components/UserProfile/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/components/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/index.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/pages/AddPost/AddPost.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/pages/AddPost/AddPost.module.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/pages/AddPost/AddPost.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/pages/AddPost/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/pages/Login/Login.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/pages/Login/Login.module.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/pages/Login/Login.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/pages/Login/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/pages/PostPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/pages/Registration/Login.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/pages/Registration/Login.module.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/pages/Registration/Login.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/pages/Registration/index.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/pages/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/theme.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/pages/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/components/Header/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/Header/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/components/Post/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/Post/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/pages/PostPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/pages/PostPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/pages/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +110,7 @@
       <workItem from="1737619702202" duration="12604000" />
       <workItem from="1737638760881" duration="4233000" />
       <workItem from="1737651997891" duration="5833000" />
-      <workItem from="1737704764119" duration="3037000" />
+      <workItem from="1737704764119" duration="4766000" />
     </task>
     <task id="LOCAL-00001" summary="1.0 Start">
       <option name="closed" value="true" />
@@ -187,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737704965064</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="1.2 Верстка, material ui, scss">
+      <option name="closed" value="true" />
+      <created>1737708065755</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1737708065755</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
