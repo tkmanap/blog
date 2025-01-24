@@ -4,23 +4,57 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db726b39-62fd-4dc3-801f-0bca75203e33" name="Changes" comment="1.0 Start">
-      <change afterPath="$PROJECT_DIR$/app/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/About.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/Home.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/controllers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/utils/handleValidationErrors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/utils/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/backend/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/postController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/postController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/userController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/userController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/Post.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/Post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/models/User.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/checkAuth.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/utils/checkAuth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/validation.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/validations.js" afterDir="false" />
+    <list default="true" id="db726b39-62fd-4dc3-801f-0bca75203e33" name="Changes" comment="1.2 Верстка, material ui, scss">
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/public/noavatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/components/AddComment/AddComment.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/components/AddComment/AddComment.module.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/components/AddComment/AddComment.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/components/AddComment/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/components/CommentsBlock.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/components/Header/Header.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/components/Header/Header.module.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/components/Header/Header.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/components/Header/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/components/Post/Post.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/components/Post/Post.module.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/components/Post/Post.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/components/Post/Skeleton.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/components/Post/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/components/SideBlock/SideBlock.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/components/SideBlock/SideBlock.module.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/components/SideBlock/SideBlock.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/components/SideBlock/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/components/TagsBlock.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/components/UserProfile/UserProfile.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/components/UserProfile/UserProfile.module.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/components/UserProfile/UserProfile.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/components/UserProfile/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/pages/AddPost/AddPost.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/pages/AddPost/AddPost.module.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/pages/AddPost/AddPost.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/pages/AddPost/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/pages/Login/Login.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/pages/Login/Login.module.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/pages/Login/Login.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/pages/Login/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/pages/PostPage.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/pages/Registration/Login.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/pages/Registration/Login.module.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/pages/Registration/Login.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/pages/Registration/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/pages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/theme.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/pages/Home.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,72 +99,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Node.js.checkAuth.js.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/manaptk/WebstormProjects/blog&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.build (1).executor&quot;: &quot;Run&quot;,
-    &quot;npm.build.executor&quot;: &quot;Run&quot;,
-    &quot;npm.start.executor&quot;: &quot;Run&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\manaptk\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Node.js.checkAuth.js.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/manaptk/WebstormProjects/blog/app/public",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.build (1).executor": "Run",
+    "npm.build.executor": "Run",
+    "npm.start.executor": "Run",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "watcher.settings",
+    "ts.external.directory.path": "C:\\Users\\manaptk\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\manaptk\WebstormProjects\blog\app\public" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\manaptk\WebstormProjects\blog\app\src\pages" />
       <recent name="C:\Users\manaptk\WebstormProjects\blog\frontend\src\pages\Home" />
       <recent name="C:\Users\manaptk\WebstormProjects\blog\Backend" />
       <recent name="C:\Users\manaptk\WebstormProjects\blog" />
       <recent name="C:\Users\manaptk\WebstormProjects\blog\models" />
     </key>
-  </component>
-  <component name="RunManager" selected="npm.start">
-    <configuration name="build (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/app/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="build" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/frontend/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="build" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/frontend/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="npm.build (1)" />
-        <item itemvalue="npm.start" />
-        <item itemvalue="npm.build" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -153,6 +153,7 @@
       <workItem from="1737619702202" duration="12604000" />
       <workItem from="1737638760881" duration="4233000" />
       <workItem from="1737651997891" duration="5833000" />
+      <workItem from="1737704764119" duration="3037000" />
     </task>
     <task id="LOCAL-00001" summary="1.0 Start">
       <option name="closed" value="true" />
@@ -170,7 +171,23 @@
       <option name="project" value="LOCAL" />
       <updated>1737626002832</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1.1 backend finish">
+      <option name="closed" value="true" />
+      <created>1737704900291</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1737704900291</updated>
+    </task>
+    <task id="LOCAL-00004" summary="1.2 frontend start">
+      <option name="closed" value="true" />
+      <created>1737704965064</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1737704965064</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,7 +206,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1.0 Start" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.0 Start" />
+    <MESSAGE value="1.1 backend finish" />
+    <MESSAGE value="1.2 frontend start" />
+    <MESSAGE value="1.2 Верстка, material ui, scss" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.2 Верстка, material ui, scss" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -221,13 +241,11 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/backend/controllers/postController.js</url>
           <line>106</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/backend/controllers/postController.js</url>
           <line>20</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
