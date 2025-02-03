@@ -4,14 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db726b39-62fd-4dc3-801f-0bca75203e33" name="Changes" comment="1.2 Верстка, material ui, scss">
+    <list default="true" id="db726b39-62fd-4dc3-801f-0bca75203e33" name="Changes" comment="1.3 React-router-dom">
+      <change afterPath="$PROJECT_DIR$/app/src/axios.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/redux/slices/posts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/redux/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/Header/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/Header/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/components/Post/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/components/Post/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/pages/PostPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/pages/PostPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/pages/Home.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/controllers/postController.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/controllers/postController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +48,9 @@
     <setting file="file://$PROJECT_DIR$/index.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/models/User.js" root0="FORCE_HIGHLIGHTING" />
   </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/app/package.json" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -56,27 +63,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Node.js.checkAuth.js.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "deletionFromPopupRequiresConfirmation": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "C:/Users/manaptk/WebstormProjects/blog/app/public",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.build (1).executor": "Run",
-    "npm.build.executor": "Run",
-    "npm.start.executor": "Run",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "watcher.settings",
-    "ts.external.directory.path": "C:\\Users\\manaptk\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Node.js.checkAuth.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/manaptk/WebstormProjects/blog/app/public&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.build (1).executor&quot;: &quot;Run&quot;,
+    &quot;npm.build.executor&quot;: &quot;Run&quot;,
+    &quot;npm.start.executor&quot;: &quot;Run&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\manaptk\\AppData\\Local\\Programs\\WebStorm\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\manaptk\WebstormProjects\blog\app\public" />
@@ -87,6 +94,9 @@
       <recent name="C:\Users\manaptk\WebstormProjects\blog\Backend" />
       <recent name="C:\Users\manaptk\WebstormProjects\blog" />
       <recent name="C:\Users\manaptk\WebstormProjects\blog\models" />
+    </key>
+    <key name="es6.move.members.recent.items">
+      <recent name="C:\Users\manaptk\WebstormProjects\blog\app\src\pages\CommentsBlock.jsx" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -110,7 +120,8 @@
       <workItem from="1737619702202" duration="12604000" />
       <workItem from="1737638760881" duration="4233000" />
       <workItem from="1737651997891" duration="5833000" />
-      <workItem from="1737704764119" duration="4766000" />
+      <workItem from="1737704764119" duration="18325000" />
+      <workItem from="1738574285229" duration="413000" />
     </task>
     <task id="LOCAL-00001" summary="1.0 Start">
       <option name="closed" value="true" />
@@ -152,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737708065755</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="1.3 React-router-dom">
+      <option name="closed" value="true" />
+      <created>1737709936469</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1737709936469</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,7 +193,8 @@
     <MESSAGE value="1.1 backend finish" />
     <MESSAGE value="1.2 frontend start" />
     <MESSAGE value="1.2 Верстка, material ui, scss" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.2 Верстка, material ui, scss" />
+    <MESSAGE value="1.3 React-router-dom" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.3 React-router-dom" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -207,11 +227,6 @@
           <url>file://$PROJECT_DIR$/backend/controllers/postController.js</url>
           <line>106</line>
           <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/backend/controllers/postController.js</url>
-          <line>20</line>
-          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

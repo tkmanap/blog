@@ -33,16 +33,12 @@ export const getAll = async (req, res) => {
 export const getOne = async (req, res) => {
     try {
         const postId = req.params.id;
-
         PostModel.findOneAndUpdate(
             {
                 _id: postId,
             },
             {
                 $inc: { viewsCount: 1 },
-            },
-            {
-                returnDocument: 'after',
             },
             (err, doc) => {
                 if (err) {
@@ -110,7 +106,7 @@ export const create = async (req, res) => {
             title: req.body.title,
             text: req.body.text,
             imageUrl: req.body.imageUrl,
-            tags: req.body.tags.split(','),
+            tags: req.body.tags,
             user: req.userId,
         });
 
